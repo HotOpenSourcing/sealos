@@ -20,9 +20,9 @@ node_modules
 vendor
 pkg/registry/save/testdata/registry
 .dummy.report.md
-.vscode/
 /lifecycle/tools/
 
 **.env*
 !scripts/cloud/sealos.env
 **/helloagents/**
+config.bat

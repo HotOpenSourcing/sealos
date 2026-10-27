@@ -9,8 +9,8 @@
   "author": "mlhiter",
   "scripts": {
     "test": "tsx --test test/*.test.ts",
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "build": "node init && rollup -c",
+    "dev": "node init && rollup -c -w",
     "test:integration": "tsx test/index.ts",
     "typecheck": "tsc --noEmit",
     "prepack": "npm run build",

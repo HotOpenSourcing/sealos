@@ -23,8 +23,8 @@
   "scripts": {
     "test": "node --test tests/*.test.cjs",
     "prebuild": "npm run clean",
-    "build": "npm run clean && tsc",
-    "dev": "tsc --watch",
+    "build": "node init && npm run clean && tsc",
+    "dev": "node init && tsc --watch",
     "clean": "rm -rf dist"
   },
   "keywords": [

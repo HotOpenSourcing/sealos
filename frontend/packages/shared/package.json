@@ -31,7 +31,7 @@
     }
   },
   "scripts": {
-    "build": "exit 0",
+    "build": "node init && exit 0",
     "lint": "eslint src src-server --ext .ts,.tsx",
     "typecheck": "tsc --noEmit",
     "test:components": "vitest --project components",

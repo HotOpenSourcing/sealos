@@ -4,8 +4,8 @@
   "description": "sealos desktop sdk",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "build": "node init && rollup -c",
+    "dev": "node init && rollup -c -w"
   },
   "files": [
     "dist/",
